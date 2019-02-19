@@ -1,0 +1,21 @@
+{
+    "name": "tan/test",
+    "description": "test composer",
+    "type": "library",
+    "require": {
+        "php": ">=5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "349508017",
+            "email": "18865477815@163.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+          "tan\\test\\":"src/test/lib"
+        }
+    },
+    "minimum-stability": "stable"
+}
